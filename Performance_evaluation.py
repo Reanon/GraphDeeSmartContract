@@ -4,6 +4,7 @@ from sklearn.metrics import confusion_matrix
 
 data_dir = "./comparison/reentrancy/"
 
+# 这里是对模型的评价，计算各类指标的
 
 # Performance evaluation, tools : SmartCheck, Securify, Mythril, Oyente
 def read_label(fpath, line_parse_fn=None):
